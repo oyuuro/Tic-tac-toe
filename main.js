@@ -162,16 +162,16 @@ function checkWinner() {
     var player2 = document.querySelector("#player2");
     if(winner == 1)
     {
-      alert("Wygral gracz " + player1.value);
+      alert(player1.value + ' is the winner!');
     }
     else
     {
-      alert("Wygral gracz " + player2.value);
+      alert(player2.value + ' is the winner!');
     }
     resetGame();
 
   } else if (checkIfEmpty() === false) {
-    alert("Remis");
+    alert("It's a draw!");
     resetGame();
   }
 
