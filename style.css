@@ -1,0 +1,118 @@
+body {
+  background: #232931;
+  /* position: relative; */
+  text-align: center;
+}
+
+.col {
+  width: 100px;
+  height: 75px;
+  background: #4ecca3;
+  float: left;
+  /* żeby elementy się ukadaly obok siebie */
+  margin: 5px;
+  font-size: 120px;
+  /* color: #232931; */
+  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  font-family: Montserrat;
+  position: relative;
+  transition: 0.5s;
+  /* border-radius: 10px; */
+  padding-bottom:25px;
+  /* background-color: #DFDBE5; */
+background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23859987' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+
+}
+
+.line {
+  overflow: hidden;
+  /* każda w osobnej linii */
+  width: 100%;
+}
+
+.col:hover {
+  background:#eeeeee;
+  color: #393e46;
+  /* background-color: #DFDBE5; */
+background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%239e9d9f' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.turn-of{
+  color: #eeeeee;
+  font-family: Montserrat;
+  margin: 25px;
+  margin-left: 35px;
+}
+
+.player{
+  /* text-decoration: none; */
+  border: none;
+  background: none;
+  color: #eeeeee;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 30px;
+  font-family: Montserrat;
+   outline: none;
+   width: 130px;
+}
+
+.player:placeholder{
+  color: #757575;
+  font-family: Montserrat;
+  font-size: 15px;
+}
+
+.reset{
+  border:none;
+  background: none;
+  color: #eeeeee;
+  font-family: Montserrat;
+  margin-left: 135px;
+  border: 1px solid #eeeeee;
+  padding: 10px;
+  position: relative;
+  transition: 0.3s;
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.reset:hover{
+  background:#eeeeee;
+  color: #232931;
+}
+
+/* .container{
+  border: 2px solid red;
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+} */
+
+.header{
+  font-family: Montserrat;
+  font-size: 35px;
+  color:#eeeeee;
+  margin-left: 70px;
+}
+
+.small-header{
+  color: #757575;
+  font-family: Montserrat;
+  font-size: 12px;
+  margin-left: 135px;
+  margin-bottom: -20px;
+}
+
+.container{
+  text-align: left;
+  width: 330px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
